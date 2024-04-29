@@ -30,8 +30,31 @@ int main(int argc, const char * argv[]) {
 
     // Assign myOtherNum (23) to myNum
     myNum = myOtherNum;
-    
     printf("%d\n", myNum);
+    
+    // Add numbers together
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
+    printf("%d\n", sum);
+    
+    // Declaring multiple vars
+    int x1 = 5, y1 = 6, z1 = 50;
+    printf("%d\n", x1 + y1 + z1);
+    
+    
+    // Create integer variables
+    int length = 4;
+    int width = 6;
+    int area;
+
+    // Calculate the area of a rectangle
+    area = length * width;
+
+    // Print the variables
+    printf("Length is: %d\n", length);
+    printf("Width is: %d\n", width);
+    printf("Area of the rectangle is: %d\n", area);
     
     return 0;
 }
