@@ -244,6 +244,7 @@
 		4DD41B722BE0277A001B6882 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A48R25Y4D5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -254,6 +255,7 @@
 		4DD41B732BE0277A001B6882 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A48R25Y4D5;
 				ENABLE_HARDENED_RUNTIME = YES;
