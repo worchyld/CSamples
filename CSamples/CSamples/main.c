@@ -12,5 +12,8 @@ int main(int argc, const char * argv[]) {
     printf("Hello, World!\n");
     printf("This sentence will work!\n");
     printf("And it is awesome!\n");
+    
+    // multi-line
+    printf("Hello World!\nI am learning C.\nAnd it is awesome!\n");
     return 0;
 }
