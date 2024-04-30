@@ -6,6 +6,7 @@
 //
 
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -55,6 +56,39 @@ int main(int argc, const char * argv[]) {
     printf("Length is: %d\n", length);
     printf("Width is: %d\n", width);
     printf("Area of the rectangle is: %d\n", area);
+ 
+    // Print ASCII chars
+    char a = 65, b = 66, c = 67;
+    printf("%c\n", a);
+    printf("%c\n", b);
+    printf("%c\n", c);
+    
+    // Decimal precision
+    float myFloatNumber = 3.5;
+    double myDoubleNumber = 19.99;
+
+    printf("%f\n", myFloatNumber); // Outputs 3.500000
+    printf("%f\n", myDoubleNumber); // Outputs 19.990000
+    
+    printf("%.2f\n", myFloatNumber); // Only show 2 digits
+    
+    const int myNumberConst = 15;  // constant
+    printf("%d\n", myNumberConst);
+    
+    int total = 100 + 50;
+    printf("%d\n", total);
+    
+    bool isProgrammingFun = true;
+    bool isFishTasty = false;
+    
+    // Return boolean values
+    printf("%d\n", isProgrammingFun);   // Returns 1 (true)
+    printf("%d\n", isFishTasty);        // Returns 0 (false)
+    
+    int myAge = 25;
+    int votingAge = 18;
+
+    printf("%d\n", myAge >= votingAge); // Returns 1 (true), meaning 25 year olds are allowed to vote!
     
     return 0;
 }
